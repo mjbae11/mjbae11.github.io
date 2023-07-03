@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Us</title>
+
+    <!-- Including the main.css file for styling -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Including the Font Awesome CSS library for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <div class="topnav" id="myTopnav">
+        <!-- Links to different sections -->
+        <a href="index.html">Cascade Wallet</a>
+        <a href="section1.html">About Us</a>
+        
+
+        <!-- Active link pointing to the section3.html page -->
+        <a class="active" href="section3.html">Lets talk further</a>
+
+   
+        <a href="references.html">References</a>
+
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links on smaller screens -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <!-- Section 3 content -->
+        <div class="container">
+            <form>
+          
+              <label for="fname">Full Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">What can we help you with?</label>
+              <select id="country" name="country">
+                <option value="australia">I need support</option>
+                <option value="canada">Would like to return a product</option>
+                <option value="usa">I have a question!</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" onclick="alert('We Received Your Message!')" value="submit">
+
+          
+            </form>
+          </div>
+    </div>
+
+    <!-- Including the main.js file for JavaScript functionality -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
